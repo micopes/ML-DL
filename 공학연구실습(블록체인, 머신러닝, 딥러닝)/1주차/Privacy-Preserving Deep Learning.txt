@@ -1,0 +1,42 @@
+Privacy-Preserving Deep Learning
+
+많은 데이터를 사용하다보니. Critical한 data가 포함될 수 있음
+ex) 의료, 재정, 개인 정보 등
+
+- Direct Information Exposure 
+서버와의 중간에서 직접 가로채는 것.
+
+- Indirect Information Exposure
+
+
+이런 것들을 방어하기 위한 것.
+1) Fully Homomorphic Encryption(FHE)
+동형 암호.
+
+x -> f(x) -> Enc -> Dec -> f(x) 를
+
+클라우드에 보낼때 원래 암호화를 해야 하는데 
+클라우드에 보낼 때에도 암호화를 풀 필요가 없어진다.
+
+2) Differential Privacy(DP)
+
+D1, D2는 거의 비슷함
+입실론의 차이만 놔두고 수식을 만족하게 이렇게 만드는 방법(노이즈를 넣는다)
+
+데이터뿐만 아니라 모델에도 이를 적용할 수 있다.
+
+3) Secure Multi-Party Computation(sMPC)
+카드사
+
+
+1, 2를 실제 사용
+GPGPU
+연산이 많이 들어감. GPGPU를 통해서 동형암호를 바르게 만드는 방법으로 활용
+
+- Microaggregation을 통해서 데이터를 잘게 쪼개서 이용한다.
+
+
+
+
+
+
