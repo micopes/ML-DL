@@ -1,0 +1,3 @@
+검증 정확도.
+증가하다가 감소하면 이것이 overfitting을 나타냄.
+https://go-hard.tistory.com/29 참조
