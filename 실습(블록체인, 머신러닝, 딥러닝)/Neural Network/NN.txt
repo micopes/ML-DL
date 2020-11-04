@@ -1,0 +1,26 @@
+NN 은 퍼셉트론에서 파생된 것
+퍼셉트론과의 차이는 Hidden Layer 의 유무
+
+bias - 뉴런의 활성화를 제어. 1이면 활성화 0이면 비활성화
+
+깊이가 깊어질수록 중앙보다 양극으로 쏠리므로 데이터 양극화 발생 -> 학습이 더딤.
+zero-centered 가 이런 뜻인듯.
+
+ReLU(Rectified Linear Unit)
+
+Linear라고 되어 있으나, 깊이가 깊어질수록 비선형 형태를 띤다.
+계산 과정이 단순하다.
+
+회귀 : identity function : ->
+분류 : softmax function : - / \ 이렇게 이어지는 Layer의 모든 곳에 영향
+
+
+전체 모델을 한번에 train 시키면 시간이 너무 오래걸린다.
+Mini batch
+한 epoch마다 작은 단위로 random 하게 뽑아서 계산 -> 
+정확도가 떨어질 수 있으나 반복횟수로 이를 커버함
+cross entropy 매번 log를 다 취하는것보다 단순 for문이 더 단순하므로 이를 이용.
+
+BN(batch normalization)?
+
+
