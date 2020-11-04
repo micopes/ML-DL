@@ -1,0 +1,15 @@
+matmul vs dot
+공통점
+- 속도는 거의 유사하다.
+https://stackoverflow.com/questions/34142485/difference-between-numpy-dot-and-python-3-5-matrix-multiplication
+의 그래프 참고
+
+dot은 내적 곱
+내적 곱은
+a b c      a b c      a^2 b^2 c^2 
+d e f   *  d e f   =  d^2 e^2 f^2 
+g h i      g h i      g^2 h^2 i^2
+
+matmul은 행렬 곱
+행렬 곱은 내가 아는 방식대로 동작
+
