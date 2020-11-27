@@ -1,0 +1,15 @@
+1D CNN과 2D CNN의 차이점
+
+CNN은 1차원, 2차원 또는 3차원에서 모두 동일한 방식으로 작동함.
+차이점 :
+
+1) 입력 데이터의 구조.
+2차원 : x * y * 3(R, G, B)
+
+2) Convolutional filter가 이동하는 방식.
+2D Convolution Network에서  ㄹ의 방식으로 이동.
+1D Network에서는 |의 방식으로 이동.
+
+3) filter size 조정
+1D CNN에서 크기가 7 or 9인 filter에는 각각 7 or 9인 특징 벡터가 포함된다.
+2D CNN에서 크기가 7 or 9이면 7인 filter에서는 49개의 feature vector가 포함된다.
