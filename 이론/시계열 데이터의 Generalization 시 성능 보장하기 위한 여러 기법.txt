@@ -1,0 +1,10 @@
+시계열 데이터의 Train시에 Overfitting 때문에 Generalization 시에 성능이 감소하는 것을 방지하기 위한 것
+1) Jittering 잡음 추가
+2) Scaling - 약간의 Magnitude 변화
+3) Magnitude Warping - 약간의 Magnitude 변화
+4) Time warping - 시점 변경
+5) Permutation
+6) Cropping
+7) 1 ~ 6의 적절한 Combintation
+
+등.
