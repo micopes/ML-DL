@@ -1,0 +1,16 @@
+Decision Tree
+- Entropy
+- Gini 계수
+- Information Gain
+을 근거로 트리를 구성한다.
+
+부모 Entropy - (확률 * 자식 Entropy + ...(반복))
+
+
+
+
+- Hypothesis space is complete
+- single hypothesis
+- Backtracking x -> Local minima에 빠진다. but 매우 정확
+- 통계기반 -> noise에 빠진다
+- Induction bias : 가장 작은 tree 선호
