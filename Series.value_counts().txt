@@ -1,0 +1,18 @@
+pandas.Series.value_counts
+
+>>> index = pd.Index([3, 1, 2, 3, 4, np.nan])
+>>> index.value_counts()
+3.0    2
+2.0    1
+4.0    1
+1.0    1
+dtype: int64
+
+# normalize = True로 하면 비율로 나타내준다.
+>>> s = pd.Series([3, 1, 2, 3, 4, np.nan])
+>>> s.value_counts(normalize=True)
+3.0    0.4
+2.0    0.2
+4.0    0.2
+1.0    0.2
+dtype: float64
