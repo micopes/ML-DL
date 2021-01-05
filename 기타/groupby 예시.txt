@@ -1,0 +1,8 @@
+1. 'Sex', 'Age'만 뽑아서 'Sex'로 groupby
+titanic[['Sex', 'Age']].groupby('Sex').mean()
+2. 'Sex'로 groupby후 mean()
+titanic.groupby('Sex').mean()
+3. 'Sex'로 groupby후 'Age'의 mean() 뽑아내기
+titanic.groupby('Sex')['Age'].mean()
+4. 'Sex', 'Pclass'로 groupby후 'Fare'의 mean() 뽑아내기
+titanic.groupby(['Sex', 'Pclass'])['Fare'].mean()
