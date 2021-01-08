@@ -1,0 +1,13 @@
+IQR
+
+Maximum(Q3 + (1.5 * IQR))
+
+75% Q3
+25% Q1
+
+Minimum(Q1 - (1.5 * IQR))
+
+Maximum 과 Minimum 사이에 없는 값을 이상치라고 한다.
+
+
+
