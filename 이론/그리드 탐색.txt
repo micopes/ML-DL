@@ -1,1 +1,5 @@
-그리드 탐색 : hyperparameter를 자동화하여 변경시켜준다.
+1. 그리드 탐색 : hyperparameter를 params로 전달해주면 해당하는 것 안에서 모든 경우의 수를 고려하여 성능을 찾아준다.
+2. 랜덤 그리드 : hyperparameter를 params로 전달해주면 해당하는 것 안에서 iters로 설정한 수만큼 중복을 허용하지 않고 뽑아서 성능을 찾아준다.(그리드 탐색의 시간이 많이 걸리는 단점을 보완하지만 모든 경우의 수를 고려하지 못한다는 단점이 있다.)
+두 가지를 적절하게 혼용해주면 빠르게 좋은 hyperparameter를 찾는데에 도움이 될 것이다.
+
++) Bayesian Optimization 이용한 탐색
