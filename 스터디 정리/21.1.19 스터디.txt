@@ -1,0 +1,72 @@
+1/19 스터디
+
+Quantile
+
+0 -> 1 -> 2 -> 3 ... -> 6 -> 7 -> 8
+Encoder, Decoder 방식
+0 ~ 6 -> 7, 8
+Decoder의 Input, Output은 같아야 한다.
+
+input, output이 달라도 돌아가긴 함.(many to one도 있으니 됨!)
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+GMM(Gaussian Mixture Model)
+가우시안 분포가 혼합된 모델로 clustering
+
+DAGMM
+
+Deep Autoencoder ..
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+Policy Gradient Based
+- high, continuous space에 좋다.(모터, 로보틱스)
+- 높은 샘플 효율
+
+PPO
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+Anomaly Detection(이상 탐지)
+비전에서는 -> 범죄, 사고
+
+이상 탐지 과제의 어려움
+- 클래스 불균형
+- 지금까지 보지 못한 anomaly case를 찾아내야 한다.
+
+semi-supervised learning
+- training 동안에는 정상 case로만 학습, test에서 이상 케이스를 넣어서 확인
+- training 동안 모델 정상 데이터 분포 px만을 학습
+- test에서 이상 케이스를 넣으면 outlier로 인식
+
+Generative Adversarial Network(GAN)
+목표 : 실제같은 이미지를 만드는 것
+generator : 이미지 생성
+discriminator : 진짜인지 구분하는 것
+
+Model Training
+정상 데이터만 학습시키면 모델에 이상 데이터가 들어갔을 때 reconstruct하지 못할 것.(이상 데이터를
+만들어내지 못할 것)
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+utf-8 을 적용
+다른 운영체제에서는 다르게 나올 수 있다.
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+캐글 노트북이 아니라 다른 환경에서 시행해서 다른 결과가 나오는 결과가 있다.
+EDA용, 학습 등 나누어서 하는 것이 좋다고 하심.
+
+AutoML(Pycaret)을 이용해서 바로 제출 가능
+pycaret의 로그 파일에 진행사항이 저장됨.(버전마다 결과가 다르게 나올 수 있음)
+pycaret이 지원하는 것
+- classification
+- regression
+- clustering
+- anomaly detection
+- nlp
+	- 토픽에 따른 단어 빈도수, 확률
+
+
+
+
+
+
