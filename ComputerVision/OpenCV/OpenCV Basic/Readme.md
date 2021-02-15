@@ -12,11 +12,11 @@
 - edge 검출
 - 동영상 출력
 
-#### Video_in
+#### video_in
 - edge 검출
 - 동영상 출력
 
-#### Video_out
+#### video_out
 - edge 검출
 - 동영상 저장
 
