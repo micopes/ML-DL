@@ -24,7 +24,6 @@ while True:
         # detect에는 confidence가 높은 것부터 정렬이 되어있으므로 break
         if confidence < 0.5:
             break
-    
         x1 = int(detect[i, 3] * w)
         y1 = int(detect[i, 4] * h)
         x2 = int(detect[i, 5] * w)
