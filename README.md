@@ -5,8 +5,8 @@ Machine Learning, Deep Learning, ***Computer Vision*** 관련 공부 및 실습
   - Haar
   - OpenCV Basic
   - OpenCV 활용
-    - 정리(각 세부 내용 정리)
-    - 여러 가지 실습...
+    - 실습
+    - 정리
 - Object Detection, Segmentation
 
 ## Kaggle(DACON)
