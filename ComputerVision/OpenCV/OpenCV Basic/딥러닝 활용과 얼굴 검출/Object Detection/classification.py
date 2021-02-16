@@ -8,6 +8,7 @@ import cv2
 # 입력 : (224 x 224), BGR, mean = (104, 117, 123)
 # 출력 : 1000개의 노드
 
+
 filename = 'beagle.jpg'
 
 if len(sys.argv) > 1:
