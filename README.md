@@ -7,7 +7,8 @@ Machine Learning, Deep Learning, ***Computer Vision*** 관련 공부 및 실습
 ## Kaggle(DACON)
 - Kaggle
 - Dacon
-관련 competetion
+
+등 competetion 정리
 
 ## Projects
 - 개인 Project
