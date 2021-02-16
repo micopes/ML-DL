@@ -19,7 +19,6 @@ Machine Learning, Deep Learning, ***Computer Vision*** 관련 공부 및 실습
 ## 스터디 정리
 - 스터디에서 배운 것들
 - 발표한 내용
-- 
 
 ## 실습
 - 날코딩
