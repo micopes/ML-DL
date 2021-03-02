@@ -1,0 +1,75 @@
+- adversarial example
+
+작은 노이즈 부분이 non-robust feature
+사람 눈에 보이는 부분이 robust feature
+Useful Feature 안에 속한 것이 non-robust, robust
+
+-----------------------------------------------------------
+- Batch size, sharpness
+Batch size를 크게 Training 시키면 성능이 안좋아지는데
+그 이유는 sharp local minima에 빠지기 때문.
+
+Gradient Descent : 모든 데이터로 gradient 계산, update
+Stochastic Gradient Descent 하나의 데이터로 gradient 계산, update
+-> Batch.
+
+Sharp Minima -> Bad
+-> loss function의 변화에 민감하여 generalization 시에 안좋다.
+
+Small batch size -> local minima에 빠지는 것이 방지된다.
+Noisy한 gradient. 
+불안정함으로써 sharp local minima에 빠지지 않고 flat local minima로 간다.
+
+6가지 NN으로 실험 -> *50000 ~ 500000* 정도의 data를 활용
+실험 batch size
+Large Batch size : Training Data의 10%
+Small Batch size : 256
+
+모든 경우에서 overfitting 발생하지 않았고 small batch size를 적용할 경우에 더 좋은 성능.
+
+sharp 한 것을 계산(대략적으로.)
+1. batch size가 커짐에 따라 sharpness는 커지고, test accuracy는 낮아지는 것을 확인 가능
+2. 학습이 진행됨에 따라 위의 경향이 더 커지는 것을 확인할 수 있다.
+
+그러나 <8인 경우에는 batch statistics(평균, 표준편차)가 불안정해서 성능이 감소
+
+****
+시간적인 문제때문에 처음에는 16, 32 정도로 하다가, 
+성능을 잘 짜내야 하면 8로 한다고 한다.
+****
+--------------------------------------------------------------
+- GAN(pix2pix와 cycleGAN)
+
+생성자(Generator)는 더 정밀한 것을 생성, 판별자(Discriminator)는 위조 여부를 판단
+
+pix2pix(2018)
+반드시 input과 이에 상응하는 Ground Truth가 존재해야 한다.
+이를 극복한 것이 cycleGAN
+
+pix2pix
+blur한 이미지가 생성
+-> GAN loss + L1 loss으로 극복
+
+cycleGAN
+- 스타일 변경은 비교적 좋은 성능을 보이지만 형태를 바꾸기는 어렵다.
+- 분포가 많지 않은 데이터에서는 잘 동작하지 않는다.
+
+외곽은 유지하면서 스타일만 가져오는 방식.
+
+--------------------------------------------------------------
+Airflow를 활용하여 아름다운 데이터 파이프라인 구성하기
+카카오.
+
+회원 
+결제 
+콘텐츠관리 
+운영도구
+정산
+광고
+데이터 플랫폼
+
+DB가 분화. join이 필요.
+
+
+Airflow를 이용하여 Data Lake의 문제점 해결.
+실시간으로. Batch로 가져와야 한다.
