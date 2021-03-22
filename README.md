@@ -35,5 +35,5 @@
 
 ## 이론
 - Machine Learning, Deep Learning 관련 이론 정리
-  - 정리[<https://github.com/micopes/ML-DL-Vision/tree/Main/%EC%9D%B4%EB%A1%A0/%EC%A0%95%EB%A6%AC>]
+  - [정리](https://github.com/micopes/ML-DL-Vision/tree/Main/%EC%9D%B4%EB%A1%A0/%EC%A0%95%EB%A6%AC)
     - 머신러닝, 딥러닝 간단 요약
