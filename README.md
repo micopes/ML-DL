@@ -9,6 +9,9 @@
     - 정리
 - Object Detection, Segmentation
 
+- 이론 정리
+  - Image Filtering
+
 ## Kaggle(DACON)
 - Kaggle
 - Dacon
@@ -32,5 +35,5 @@
 
 ## 이론
 - Machine Learning, Deep Learning 관련 이론 정리
-  - 정리 Folder
+  - 정리
     - 머신러닝, 딥러닝 간단 요약
