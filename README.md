@@ -9,7 +9,7 @@
     - 정리
 - Object Detection, Segmentation
 
-- 이론 정리
+#### 이론 정리
   - Image Filtering
 
 ## Kaggle(DACON)
@@ -20,7 +20,7 @@
 
 ## Projects
 - 개인 Project
-  - 수진자 진료비 예측
+  - **수진자 진료비 예측**
 
 ## 기타
 - 문법, 기타 참고 사항
@@ -35,5 +35,5 @@
 
 ## 이론
 - Machine Learning, Deep Learning 관련 이론 정리
-  - 정리
+  - [정리](https://github.com/micopes/ML-DL-Vision/tree/Main/%EC%9D%B4%EB%A1%A0/%EC%A0%95%EB%A6%AC)
     - 머신러닝, 딥러닝 간단 요약
