@@ -9,8 +9,9 @@
     - 정리
 - Object Detection, Segmentation
 
-#### 이론 정리
-  - Image Filtering
+#### 정리
+  - [이론](https://github.com/micopes/ML-DL-Vision/tree/Main/ComputerVision/%EC%A0%95%EB%A6%AC/%EC%9D%B4%EB%A1%A0)
+  - [실습](https://github.com/micopes/ML-DL-Vision/tree/Main/ComputerVision/%EC%A0%95%EB%A6%AC/%EC%8B%A4%EC%8A%B5)
 
 ## Kaggle(DACON)
 - Kaggle
