@@ -21,7 +21,7 @@
 
 ## Projects
 - 개인 Project
-  - **수진자 진료비 예측**
+  - [**수진자 진료비 예측**](https://github.com/micopes/ML-DL-Vision/tree/Main/Projects/%EC%88%98%EC%A7%84%EC%9E%90%20%EC%A7%84%EB%A3%8C%EB%B9%84%20%EC%98%88%EC%B8%A1)
 
 ## 기타
 - 문법, 기타 참고 사항
