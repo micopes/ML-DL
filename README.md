@@ -32,6 +32,8 @@
 - [Object Detection(EfficientDet)](https://github.com/PNU-ObjectDetection/ObjectDetection)
   - [데이터 전처리]
     - 진행 중
+- [마스크 얼굴 복원](https://github.com/MaskedFaceRecognition)
+  - 진행 중
 
 # 기타
 - 문법, 이론, 코드
