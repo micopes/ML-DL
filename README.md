@@ -2,11 +2,14 @@
 
 # ComputerVision
 - **OpenCV**
-  - Haar
-  - OpenCV Basic
+  - [Haar](https://github.com/micopes/ML-DL-Vision/tree/Main/ComputerVision/OpenCV/Haar)
+  - [OpenCV Basic](https://github.com/micopes/ML-DL-Vision/tree/Main/ComputerVision/OpenCV/OpenCV%20Basic)
+    - 기본 사용법
+    - 얼굴 인식
+    - 이진화, 객체인식, OCR
   - OpenCV 활용
-    - 실습
-    - 정리
+    - [실습](https://github.com/micopes/ML-DL-Vision/tree/Main/ComputerVision/OpenCV/OpenCV%20%ED%99%9C%EC%9A%A9/%EC%8B%A4%EC%8A%B5)
+    - [정리](https://github.com/micopes/ML-DL-Vision/tree/Main/ComputerVision/OpenCV/OpenCV%20%ED%99%9C%EC%9A%A9/%EC%A0%95%EB%A6%AC)
 - Object Detection, Segmentation
 
 #### 정리
@@ -38,10 +41,11 @@
 - 발표 내용 정리
 
 # 실습
-- 날코딩
-- 과제
+- [날코딩 실습](https://github.com/micopes/ML-DL-Vision/tree/Main/%EC%8B%A4%EC%8A%B5/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5(%EB%82%A0%EC%BD%94%EB%94%A9)%20%EC%8B%A4%EC%8A%B5)
+- [공학연구실습](https://github.com/micopes/ML-DL-Vision/tree/Main/%EC%8B%A4%EC%8A%B5/%EA%B3%B5%ED%95%99%EC%97%B0%EA%B5%AC%EC%8B%A4%EC%8A%B5)
 
 # 이론
 - Machine Learning, Deep Learning 관련 이론 정리
   - [정리](https://github.com/micopes/ML-DL-Vision/tree/Main/%EC%9D%B4%EB%A1%A0/%EC%A0%95%EB%A6%AC)
-    - 머신러닝, 딥러닝 이론, 실습 요약
+    - 머신러닝, 딥러닝의 이론과 실습 요약 정리
+  - [머신러닝, 딥러닝 이론, 실습 정리](https://github.com/micopes/ML-DL-Vision/tree/Main/%EC%9D%B4%EB%A1%A0)
