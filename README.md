@@ -8,8 +8,6 @@
     - 얼굴 인식
     - 이진화, 객체인식, OCR
   - OpenCV 활용
-    - [실습](https://github.com/micopes/ML-DL-Vision/tree/Main/ComputerVision/OpenCV/OpenCV%20%ED%99%9C%EC%9A%A9/%EC%8B%A4%EC%8A%B5)
-    - [정리](https://github.com/micopes/ML-DL-Vision/tree/Main/ComputerVision/OpenCV/OpenCV%20%ED%99%9C%EC%9A%A9/%EC%A0%95%EB%A6%AC)
 - Object Detection, Segmentation
 
 #### 정리
