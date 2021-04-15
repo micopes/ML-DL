@@ -44,6 +44,9 @@
 
 # 실습
 - [날코딩 실습](https://github.com/micopes/ML-DL-Vision/tree/Main/%EC%8B%A4%EC%8A%B5/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5(%EB%82%A0%EC%BD%94%EB%94%A9)%20%EC%8B%A4%EC%8A%B5)
+- [데이터과학](https://github.com/micopes/ML-DL-Vision/tree/Main/%EC%8B%A4%EC%8A%B5/%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B3%BC%ED%95%99)
+  - 통계 실습
+  - 시각화 
 - [공학연구실습](https://github.com/micopes/ML-DL-Vision/tree/Main/%EC%8B%A4%EC%8A%B5/%EA%B3%B5%ED%95%99%EC%97%B0%EA%B5%AC%EC%8B%A4%EC%8A%B5)
 
 # 이론
