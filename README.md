@@ -17,18 +17,16 @@
 - Kaggle
 - Dacon
 
-등 competetion 정리
-
 ## Projects
 - 개인 Project
   - [**수진자 진료비 예측**](https://github.com/micopes/ML-DL-Vision/tree/Main/Projects/%EC%88%98%EC%A7%84%EC%9E%90%20%EC%A7%84%EB%A3%8C%EB%B9%84%20%EC%98%88%EC%B8%A1)
 
 ## 기타
-- 문법, 기타 참고 사항
+- 문법, 이론, 코드
 
 ## 스터디 정리
-- 스터디에서 배운 것들
-- 발표한 내용
+- 스터디 내용 정리
+- 발표 내용 정리
 
 ## 실습
 - 날코딩
