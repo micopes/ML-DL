@@ -24,7 +24,9 @@
 # Projects
 
 - [**수진자 진료비 예측**](https://github.com/micopes/ML-DL-Vision/tree/Main/Projects/%EC%88%98%EC%A7%84%EC%9E%90%20%EC%A7%84%EB%A3%8C%EB%B9%84%20%EC%98%88%EC%B8%A1)
-- **산학협력프로젝트(mit-bih arrhythmia data 이용한 부정맥 예측)**
+  - [보고서](https://github.com/micopes/ML-DL-Vision/blob/Main/Projects/%EC%88%98%EC%A7%84%EC%9E%90%20%EC%A7%84%EB%A3%8C%EB%B9%84%20%EC%98%88%EC%B8%A1/%5B%EA%B2%B0%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C%5D%EC%A7%84%EB%A3%8C%EB%82%B4%EC%97%AD%EC%A0%95%EB%B3%B4%EB%A5%BC%20%ED%86%B5%ED%95%9C%20%EB%B3%91%EC%9B%90%EB%B9%84(%EB%B3%B8%EC%9D%B8%20%EB%B6%80%EB%8B%B4%EA%B8%88)%20%EC%98%88%EC%B8%A1.pdf)
+  - [코드](https://github.com/micopes/ML-DL-Vision/blob/Main/Projects/%EC%88%98%EC%A7%84%EC%9E%90%20%EC%A7%84%EB%A3%8C%EB%B9%84%20%EC%98%88%EC%B8%A1/07(%EC%B5%9C%EC%A2%85)_%EC%A7%84%EB%A3%8C%EB%82%B4%EC%97%AD%EC%A0%95%EB%B3%B4%EB%A5%BC_%ED%86%B5%ED%95%9C_%EC%88%98%EC%A7%84%EC%9E%90_%EB%B3%91%EC%9B%90%EB%B9%84(%EB%B3%B8%EC%9D%B8_%EB%B6%80%EB%8B%B4%EA%B8%88)_%EC%98%88%EC%B8%A1(%EC%84%9C%EC%9A%B8%EC%8B%9C).ipynb)
+- [**산학협력프로젝트(mit-bih arrhythmia data 이용한 부정맥 예측)**](https://github.com/PNUarrhythmia)
   - [Beat 타입(superclass) 분석](https://github.com/PNUarrhythmia/superclass)
   - [Rhythm 타입 분석](https://github.com/PNUarrhythmia/Rhythm)
 - [Object Detection(EfficientDet)](https://github.com/PNU-ObjectDetection/ObjectDetection)
