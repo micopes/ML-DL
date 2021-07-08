@@ -33,7 +33,7 @@
   - [데이터 전처리]
     - 진행 중
 - [마스크 얼굴 복원](https://github.com/MaskedFaceRecognition)
-  - 진행 중
+  - 완료 ( wsgi interface 이용 Apache2, Flask 연동 작업, AWS EC2 instance 이용 표정 분류, GAN 모델 서빙 )[https://github.com/MaskedFaceRecognition/Web]
 
 # 기타
 - 문법, 이론, 코드
