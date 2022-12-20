@@ -30,8 +30,6 @@
   - [Beat 타입(superclass) 분석](https://github.com/PNUarrhythmia/superclass)
   - [Rhythm 타입 분석](https://github.com/PNUarrhythmia/Rhythm)
 - [Object Detection(EfficientDet)](https://github.com/PNU-ObjectDetection/ObjectDetection)
-  - [데이터 전처리]
-    - 진행 중
 - [마스크 얼굴 복원](https://github.com/MaskedFaceRecognition)
   - 완료 ( wsgi interface 이용 Apache2, Flask 연동 작업, AWS EC2 instance 이용 표정 분류, GAN 모델 서빙 )[https://github.com/MaskedFaceRecognition/Web]
 
